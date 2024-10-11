@@ -1,0 +1,146 @@
+/* footer start */
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    }
+    
+    
+    .seven{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+    
+    }
+    
+    
+    .one{
+    width: 300px;
+    color: white;
+    }
+    .one h1{
+        color: indianred;
+        font-variant: small-caps;
+    }
+    .one h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .one li{
+        line-height: 1.6;
+    }
+    .one a{
+        font-size: 35px;
+        padding: 10px;
+        color: greenyellow;
+    }
+    .one a:hover{
+        
+                color:transparent;
+                background-image: url(../IMAGE/aag.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-clip: text;    
+    }
+    
+    
+    .two{
+    color: white;
+    
+    }
+    .two h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .two h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .two a{
+        color: greenyellow;
+    }
+    .two i:hover{
+        color:transparent;
+                background-image:repeating-linear-gradient(45deg,red,green,yellow 3px);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-clip: text;
+    }
+    .two li{
+        list-style-type: none;
+        line-height: 1.6;
+        
+    }
+    .two li:hover{
+        color: yellow;
+        background-color: rgb(12, 206, 93);
+    }
+    .two i{
+        color: greenyellow;
+        margin-left: 15px;
+    }
+    
+    
+    .three{
+    color: white;
+    }
+    .three li::marker{
+        content: "👉";
+        line-height: 1.6;
+    }
+    .three li:hover{
+        background-color: rgb(44, 221, 73);
+        color:yellow;
+    }
+    .three h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .three h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    
+    
+    
+    
+    .last{
+    color:greenyellow;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    .last span{
+        font-variant: small-caps;
+        color:greenyellow;
+        font-weight: 900;
+    
+    }
+    
+    .last a{
+        color: white;
+        font-variant: small-caps;
+        border: 1px solid white;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    /* footer end */

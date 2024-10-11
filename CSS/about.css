@@ -1,0 +1,604 @@
+@import url("../CSS/header.css");
+@import url("../CSS/footer.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scrollbar-color: black greenyellow;
+    /* scrollbar-gutter: stable; */
+}
+
+.main{
+    width: 100%;
+    height:auto;
+}
+
+
+/* whatsap fixed kar diya mai start */
+
+.fixed{
+    position: relative;
+    z-index: 1;
+    }
+    
+    
+    .fixed a{
+    
+    position: fixed;
+    top: 400px;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+    }
+    .fixed i{
+        font-size: 100px;
+        color:green;
+        text-shadow: 5px -3px 3px greenyellow;
+
+    }
+    .fixed i:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;
+    
+    }
+
+    
+     /* whatsap fixed end */
+
+
+/* header part start */
+header{
+    position:relative;
+    z-index: 1;
+    bottom: 50px;
+}
+.first{
+    position: fixed;
+}
+nav{
+    margin-top:50px;
+
+}
+
+
+
+
+.first{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:500px;
+    background-image:
+    linear-gradient(to right,
+    rgb(17, 233, 17),
+    rgb(72, 209, 72),
+    rgb(9, 144, 9));
+
+}
+
+
+.row1 ul{
+    padding: 15px;
+    list-style: none;
+    display: flex;
+}
+.row1 a{
+    font-size:20px;
+    color:white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+/* .row1 a:hover{
+    color:transparent;
+    background-image:repeating-linear-gradient(45deg, 10px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+
+} */
+
+
+
+.row2 ul{
+    display: flex;
+    list-style: none;
+}
+.row2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding:15px;
+    font-size: 20px;
+
+
+}
+.row2 a:hover{
+    color:transparent;
+    background-image: url(../IMAGE/aag.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+
+
+/* header end */
+
+
+/* nav bar start */
+
+.second{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+
+.image img{
+    width:300px;
+    height:70px;
+    object-fit: cover;
+}
+
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+
+
+.menu a{
+    font-weight:600;
+    font-size: 20px;
+    display: block;
+    text-decoration:none;
+    padding: 15px;
+}
+.menu a:hover{
+    color:transparent;
+    background-image: url(../IMAGE/aag.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+.menu a{
+    text-decoration: none;
+    color: green;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    text-shadow: 3px 2px 2px greenyellow;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+
+}
+.menu a:hover::before{
+    width: 90%;
+}
+
+
+/* nar bar end */
+
+
+.main-section img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section2 h1 {
+    color: green;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-shadow: 3px -2px 0px greenyellow;
+
+}
+.section2 p{
+    font-weight: 900;
+}
+
+.section2 hr {
+    width: 100px;
+    height: 5px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.section3 {
+    width: 900px;
+    margin: auto;
+
+}
+
+.section3 p{
+    padding-top: 20px;
+    line-height: 1.6;
+    font-weight: 800;
+}
+
+
+.section3 p:nth-child(4){
+    color: red;
+}
+
+.section3 span {
+    color: rgb(133, 212, 15);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.section3 p:hover{
+    color: green;
+}
+.section4{
+    margin-top:80px;
+}
+
+.section4 h1 {
+    text-align: center;
+    color: green;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px -2px 0px greenyellow;
+}
+
+.section4 ul {
+    margin-top: 30px;
+}
+
+.section4 ul li {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+
+/* sona part start */
+
+.section5 {
+
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.sona{
+    border: 2px solid greenyellow;
+    width: 400px;
+    padding: 20px;
+    line-height: 1.6;
+    
+}
+.sona h1{
+    color:green;
+}
+.sona i{
+    font-size: 30px;
+    padding: 10px;
+    color: green;
+}
+.sona h4{
+    text-align: center;
+    color: rgb(17, 234, 118);
+}
+.sona p{
+    text-align: center;
+}
+
+.sona2{
+    width: 400px;
+    border: 2px solid red;
+    padding: 20px;
+    line-height: 1.6;
+}
+.sona2 i{
+    font-size: 30px;
+    padding: 10px;
+    color: green;
+}
+.soan2 p{
+    text-align: center;
+}
+.sona2 h1{
+    color: green;
+}
+.sona2 h4{
+    text-align: center;
+    color: rgb(17, 227, 17);
+}
+
+.sona3{
+    width: 400px;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    line-height: 1.6;
+}
+.sona3 i{
+    font-size: 30px;
+    padding: 10px;
+    color: green;
+}
+.soan3 p{
+    text-align: center;
+}
+.sona3 h1{
+    color: green;
+}
+.sona3 h4{
+    text-align: center;
+    color:rgb(17, 227, 17);
+}
+
+
+
+.sona h1,
+h2,
+.sona2 h1,
+h2,
+.sona3 h1,
+h2 {
+    font-variant: small-caps;
+    
+}
+
+/* sona end */
+
+
+
+.section6 h1{
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 3px -2px 3px greenyellow;
+    color: green;
+
+}
+.section6 p{
+    text-align: center;
+    font-weight: 900;
+}
+
+.section6 hr {
+    width: 50px;
+    height: 5px;
+    background-color:greenyellow;
+    margin: auto;
+}
+
+.section6 {
+    margin-top: 100px;
+}
+
+.section7 {
+    display: flex;
+    width: 100%;
+    /* height: fit-content; */
+    justify-content:center;
+    gap: 150px;
+    align-items: center;
+    margin-top: 50px;
+}
+main{
+    background-color: #E3DFFD;
+}
+.mam img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+
+.paragraph p {
+    line-height:1.6;
+    color: blue;
+    font-size: 25px;
+    padding: 10px;
+    color: indianred;
+}
+
+.section img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+/* footer start ho gaya */
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 50px;
+    }
+    
+    
+    .seven{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+    
+    }
+    
+    
+    .one{
+    width: 300px;
+    color: white;
+    }
+    .one h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .one h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .one li{
+        line-height: 1.6;
+    }
+    .one i{
+        font-size: 35px;
+        padding: 10px;
+        color: greenyellow;
+        margin-top: 10px;
+    }
+    .one i:hover{
+        
+                color:transparent;
+                background-image: url(../IMAGE/aag.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-clip: text;    
+    }
+    
+    
+    
+    .two{
+    color: white;
+    
+    }
+    .two h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .two h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .two a{
+        color: greenyellow;
+    }
+    .two i:hover{
+        color:transparent;
+                background-image:repeating-linear-gradient(45deg,red,green,yellow 3px);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-clip: text;
+    }
+    .two li{
+        list-style-type: none;
+        line-height: 1.6;
+        
+    }
+    .two li:hover{
+        color: yellow;
+        background-color: rgb(12, 206, 93);
+    }
+    .two i{
+        margin-right: 15px;
+        color:greenyellow;
+    }
+    
+    
+    .three{
+    color: white;
+    }
+    .three li::marker{
+        content: "👉";
+        line-height: 1.6;
+    }
+    .three li:hover{
+        /* margin-right: 15px; */
+        background-color: rgb(44, 221, 73);
+        color:yellow;
+    }
+    .three h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .three h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    
+    
+    /* footer start */
+    
+    
+    .last{
+    color: greenyellow;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    .last span{
+        font-variant: small-caps;
+        color: greenyellow;
+        font-weight: 900;
+    
+    }
+    
+    .last a{
+        color: greenyellow;
+        font-variant: small-caps;
+        border: 1px solid greenyellow;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .last p{
+        margin-top: 15px;
+    }
+    
+    
+    
+    /* footer end */
+    
+    
+   

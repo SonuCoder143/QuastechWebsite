@@ -1,0 +1,309 @@
+/* header and footer start */
+
+
+@import url("../CSS/header.css");
+@import url("../CSS/footer.css");
+
+
+/* header and footer end */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scrollbar-color: black greenyellow;
+    /* scrollbar-gutter: stable; */
+}
+
+.main{
+    width: 100%;
+    height:auto;
+}
+
+
+/* whatsap fixed kar diya mai start */
+
+.fixed{
+    position: relative;
+    z-index: 1;
+    }
+    
+    
+    .fixed a{
+    
+    position: fixed;
+    top: 400px;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+    }
+    .fixed i{
+        font-size: 100px;
+        color:green;
+        text-shadow: 5px -3px 3px greenyellow;
+    }
+    .fixed i:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;
+    
+    }
+
+    
+     /* whatsap fixed end */
+
+
+
+/* slider photo start */
+
+
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+
+}
+
+
+/* slider photo end */
+
+/* paragraph start */
+
+
+
+.third{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: center;
+}
+.third h1 span{
+    color: rgb(45, 202, 45);
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}
+.third h1{
+    color: green;
+    letter-spacing: 3px;
+}
+.third p{
+    line-height: 1.6;
+}
+p{
+    font-weight: 600;
+    line-height: 1.6;
+
+}
+
+hr{
+    width: 150px;
+    height: 3px;
+    margin: auto;
+    background-color:green;
+    margin-bottom: 10px;
+}
+
+/* paragrph end */
+
+/* card start ho gaya hai */
+
+.heading{
+    width: 100%;
+    text-align: center;
+}
+.head h1{
+    color:rgb(16, 192, 31);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.fourth{
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    line-height:1.6;
+}
+.fourth span{
+    font-size: 50px;
+    color: blue;
+}
+
+.column1,.column2,.column3{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.column1 i,.column2 i,.column3 i{
+    color: green;
+    text-shadow: 2px -2px 1px greenyellow;
+}
+.column1 h1,.column2 h1,.column3 h1{
+    color:rgb(16, 196, 49);
+    font-size: 30px;
+}
+
+/* card end */
+
+/* asali card start */
+.card{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.card h1{
+    color: rgb(21, 201, 21);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.card p{
+    font-size:25px;
+    color: rgb(75, 221, 7);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+/* card end */
+
+
+
+/* hover eefct start */
+
+
+
+.fifth{
+width: 1200px;
+margin:60px auto;
+}
+.hyper{
+    display: flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.hyper a{
+    text-decoration: none;
+    width: 250px;
+    height: 200px;
+    aspect-ratio: 1;
+    background-color: rgb(246, 242, 242);
+    box-shadow: 10px -10px 5px 5px rgb(187, 182, 182);
+    color: black;
+    padding: 30px;
+    font-weight:700;
+    transition: 0.5s;
+}
+.hyper a:hover{
+    background-color: rgb(193, 237, 174);
+    scale:1.1;
+}
+.hyper i{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(9, 250, 53);
+}
+.hyper i:hover{
+    color: yellow;
+}
+
+/* hover effect end */
+
+
+/* slider bootstrap use second bar */
+
+
+
+.six{
+background-image: url(../IMAGE/dark.webp);
+width: 100%;
+height:670px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+margin-top: 30px;
+padding-top: 50px;
+
+}
+
+
+.test h1{
+text-align: center;
+color: greenyellow;
+letter-spacing: 5px;
+word-spacing: 5px;
+}
+
+
+.test p{
+text-align: center;
+color: white;
+letter-spacing: 5px;
+word-spacing: 8px;
+}
+.test hr{
+    margin-bottom:40px;
+}
+
+
+.test1{
+width: 1200px;
+height: 400px;
+margin:auto;
+background-color: rgba(100,100,100,0.5);
+box-shadow: 20px 10px 5px 5px grey,40px 20px 5px 5px greenyellow;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.left p{
+    color:greenyellow;
+    
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(83, 219, 83);
+    
+}
+.photo img{
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+figcaption{
+    font-variant: small-caps;
+    color: rgb(14, 215, 54);
+    font-weight: 900;
+}
+
+
+/* slider lastbar end */
+
+

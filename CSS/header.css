@@ -1,0 +1,148 @@
+/* header part start */
+
+header{
+    position:relative;
+    z-index: 1;
+    bottom: 50px;
+}
+.first{
+    position: fixed;
+}
+nav{
+    margin-top:50px;
+
+}
+
+
+.first{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:500px;
+    background-image:
+    linear-gradient(to right,
+    rgb(29, 62, 29),
+    rgb(20, 198, 20),
+    rgb(59, 152, 59));
+
+}
+
+
+.row1 ul{
+    padding: 15px;
+    list-style: none;
+    display: flex;
+}
+.row1 a{
+    font-size:20px;
+    color:white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+.row2 ul{
+    display: flex;
+    list-style: none;
+}
+.row2 a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    text-shadow: -3px -2px 3px red ;
+    padding:15px;
+    font-size: 20px;
+
+
+}
+.row2 a:hover{
+    color:transparent;
+    background-image: url(../IMAGE/aag.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+
+
+/* header end */
+
+
+/* nav bar start */
+
+
+.second{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+}
+
+
+.image img{
+    width: 300px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+
+
+.menu a{
+    font-weight:600;
+    font-size: 20px;
+    display: block;
+    text-decoration:none;
+    padding: 15px;
+}
+.menu a:hover{
+    color:transparent;
+    background-image: url(../IMAGE/aag.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+.menu a{
+    text-decoration: none;
+    color: green;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    text-shadow: 3px -2px 1px greenyellow ;
+    font-weight: 600;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+
+}
+.menu a:hover::before{
+    width: 90%;
+}
+
+
+/* nar bar end */

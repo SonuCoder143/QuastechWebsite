@@ -1,0 +1,194 @@
+/* header and footer start */
+
+
+@import url("../CSS/header.css");
+@import url("../CSS/footer.css");
+
+
+/* header and footer end */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scrollbar-color: black greenyellow;
+    /* scrollbar-gutter: stable; */
+}
+
+.main{
+    width: 100%;
+    height:auto;
+}
+
+
+/* whatsap fixed kar diya mai start */
+
+.fixed{
+    position: relative;
+    z-index: 1;
+    }
+    
+    
+    .fixed a{
+    
+    position: fixed;
+    top: 400px;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+    }
+    .fixed i{
+        font-size: 100px;
+        color:green;
+        text-shadow: 5px -3px 3px greenyellow;
+    }
+    .fixed i:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;
+    
+    }
+
+    
+     /* whatsap fixed end */
+
+
+
+.ol img{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.ol1 ul {
+    display: inline-flex;
+    gap: 60px;
+    font-size: 30px;
+}
+
+.ol1 li {
+
+    list-style-type: none;
+}
+
+.ol1 a {
+    text-decoration: none;
+    color: red;
+}
+
+.number img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position:left;
+}
+
+.prev {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.prev h1 {
+    color: greenyellow;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.prev p{
+    font-weight: 900;
+}
+
+.prev hr {
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.gallery{
+    width:100%;
+}
+.gallery-photo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 50px;
+    margin-top: 50px;
+    transition: all 3s;
+}
+.gallery-photo:hover{
+    background-color: rgba(172, 255, 47, 0.092);
+}
+
+.gallery-photo img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    transition: all 1s;
+    object-fit: cover;
+    object-position: center;
+}
+.gallery-photo img:hover{
+    scale: 1.1;
+    
+
+
+}
+
+    .one h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .one li{
+        line-height: 1.6;
+    }
+    .one i{
+        font-size: 35px;
+        padding: 10px;
+        color: greenyellow;
+        margin-top: 10px;
+    }
+    .one i:hover{
+        
+                color:transparent;
+                background-image: url(../IMAGE/aag.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-clip: text;    
+    }
+    
+    
+    .two{
+    color: white;
+    
+    }
+    .two h1{
+        color: greenyellow;
+        font-variant: small-caps;
+    }
+    .two h1:hover{
+        color:transparent;
+        background-image: url(../IMAGE/aag.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: text;   
+    }
+    .two a{
+        color: greenyellow;
+    }
+    
+    
+    
+    
+   
